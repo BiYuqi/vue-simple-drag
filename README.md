@@ -24,6 +24,8 @@ Vue.use(VueDrag)
   我是被限制的拖拽狂
 </div>
 ```
+### 细节
+所拖拽元素必须是fixed或者absolute定位，需要手动自己维护
 ### TODO
   - 完善部分功能
   - 移除不需要的npm包
